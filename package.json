@@ -1,7 +1,7 @@
 {
   "name": "auth-jwt",
   "version": "1.0.0",
-  "description": "Autenticação de usuários",
+  "description": "Jose Fernando - JWT Authentication",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,5 +11,9 @@
   "keywords": [],
   "author": "Jose Fernando",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3"
+  }
 }
